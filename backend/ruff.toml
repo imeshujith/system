@@ -1,0 +1,29 @@
+[tool.ruff]
+# Enable autofix on save
+fix = true
+
+# Select the linting rules you want to enforce
+select = ["E", "F", "W", "I"]
+
+# Exclude certain directories from linting
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    "migrations",
+]
+
+# Define the maximum line length
+line-length = 88
+
+# Set target Python version
+target-version = "py311"
+
+# Enable specific linting rules for imports
+[tool.ruff.isort]
+combine-as-imports = true
+force-grid-wrap = 0
+include-trailing-comma = true
+multi-line-output = 3
+use-parentheses = true

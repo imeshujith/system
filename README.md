@@ -13,8 +13,8 @@ This project consists of a backend (FastAPI) and a frontend (React) service. Bot
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/personal-library-system.git
-   cd personal-library-system
+   git clone https://github.com/imeshujith/system.git
+   cd system
    ```
 
 2. **Build and run the services:**
